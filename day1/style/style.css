@@ -1,0 +1,36 @@
+
+/* Selector { <--- algo para selecionar
+    property: values;
+    property: values;
+    property: values;
+} */
+
+* {
+    border: 0;
+    margin: 0;
+}
+
+#unique-aqua {
+    background-color: aqua;
+}
+
+.purple-box {
+    background-color: purple;
+    width: 100px;
+    height: 100px;
+    border: 3px solid black;
+}
+
+.large {
+    width: 300px;
+}
+
+div { 
+    background-color: rgba(255,0,0,1);
+    width: 100px;
+    height: 100px;
+}
+
+
+/* 255 -> ff */
+
