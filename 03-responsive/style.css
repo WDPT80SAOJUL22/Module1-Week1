@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 10px;
+}
+
+div {
+    width: 150px;
+    height: 150px;
+    background-color: coral;
+    font-size: 2rem;
+}
+
+p {
+    font-size: 1rem;
+}
+
+@media (min-width: 500px) and (max-width: 700px){
+    html {
+        font-size: 20px;
+    }
+    div{
+        width: 300px;
+        background-color: aquamarine;
+    }
+}

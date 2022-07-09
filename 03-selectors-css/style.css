@@ -1,0 +1,46 @@
+/* Seletores Avançados */
+
+/* descendentes */
+
+main div {
+    font-size: 30px;
+}
+
+/* descedentes diretos */
+
+main > div {
+    background-color: #ededed;
+}
+
+/* seletor de irmão direto */
+
+#subtitle + div {
+    background-color: #edffed;
+}
+
+/* Seletores Multiplos */
+
+header, 
+#subtitle {
+    font-weight: bolder;
+}
+
+div > em,
+div + p{
+    background-color: #ffabab;
+}
+
+/* Seletores de atributos */
+
+input[type='email']{
+    width: 300px;
+}
+input[class*='input']{
+    background-color: #ededed;
+}
+input[class~='goiaba']{
+    background-color: #ededff;
+}
+input[type$='ord']{
+    background-color: #ededff;
+}
